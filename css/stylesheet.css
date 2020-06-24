@@ -1,0 +1,33 @@
+* {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #fff9c4;
+}
+img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: teal;
+  border-width: 5px;
+  width: 10%;
+}
+h1,
+h3 {
+  color: black;
+  transition: 0.3s;
+}
+h1:hover,
+h3:hover {
+  color: teal;
+  transition: 0.3s;
+}
+
+a {
+  text-decoration: none;
+  color: darkorchid;
+}
